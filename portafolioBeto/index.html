@@ -1,755 +1,631 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Favicons -->
+<link rel="shortcut icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-    <title>Alejandro Betancourt</title>
+<title>Alejandro Betancourt</title> 
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
+<!-- Styles -->
+<link href="css/style.css" rel="stylesheet" media="screen">
 
 </head>
+<body class="body-full-page">
+    
+    <div class="loader"><div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div></div>
 
-<body id="page-top" class="index">
+    <!-- Content CLick Capture-->
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/logo.png" class="img-responsive" alt=""></a>
-            </div>
+    <div class="click-capture"></div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Tools</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">About Me</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <!-- Sidebar Menu-->
+
+    <div class="menu"> 
+      <span class="close-menu icon-cross2 right-boxed"></span>
+      <ul class="menu-list right-boxed">
+        <li  data-menuanchor="page1">
+          <a  href="#page1">Inicio</a>
+        </li>
+        <li  data-menuanchor="page2">
+          <a href="#page2">Lo que hago</a>
+        </li>
+        <li  data-menuanchor="page3">
+          <a href="#page3">Proyectos</a>
+        </li>
+        <li  data-menuanchor="page4">
+          <a href="#page4">Perfil</a>
+        </li>
+        <li  data-menuanchor="page5">
+          <a href="#page5">Resumen</a>
+        </li>
+        <li  data-menuanchor="page6">
+          <a href="#page6">Contacto</a>
+        </li>
+      </ul>
+      <div class="menu-footer right-boxed">
+        <div class="social-list">
+            <!--<a href="" class="icon ion-social-twitter"></a>
+        <a href="" class="icon ion-social-facebook"></a>
+          <a href="" class="icon ion-social-googleplus"></a>-->
+          <a href="https://www.linkedin.com/in/betanmendoza/" class="icon ion-social-linkedin"></a>
+      
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+      </div>
+    </div>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To My Portfolio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Do You Want To Know More!?</a>
-            </div>
+    <!-- Navbar -->
+
+    <header class="navbar navbar-2 navbar-white boxed">
+      <div class="navbar-bg"></div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="brand" href="#page1">
+        <img class="brand-img" alt="" src="images/brand.png">
+        <div class="brand-info">
+            <div class="brand-name text-primary">Alejandro Betancourt</div>
+          <div class="brand-text"></div>
         </div>
+      </a>
+
+      <div class="social-list hidden-xs text-primary">
+        <!--<a href="" class="icon ion-social-twitter"></a>
+        <a href="" class="icon ion-social-facebook"></a>
+      <a href="" class="icon ion-social-googleplus"></a>-->
+        <a href="https://www.linkedin.com/in/betanmendoza/" class="icon ion-social-linkedin"></a>
+        <!--<a href="" class="icon ion-social-dribbble-outline"></a>-->
+  
+      </div>
     </header>
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Skills</h2>
-                    <h3 class="section-subheading text-muted">Some of them...</h3>
+    <div class="pagepiling">
+      <div data-anchor="page1" class="pp-scrollable text-white section section-1">
+        <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/bg1.png);"></div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm text-primary"><span>Inicio</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                          <p class="subtitle-top text-primary">Hola<br></p>
+                          <h1 class="display-2 "><span class="colorTitle">Soy</span><br/> Alejandro Betancourt.</h1>
+                          <div class="hr-bottom"></div>
+                        </div>
+                          
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                     <img src="img/subir.gif" class="img-responsive" alt="">
-                       
-                    </span>
-                    <h4 class="service-heading">CINEMAGRAPH</h4>
-                    <p class="text-muted">Cinemagraphs are photographs in which a minor and repeated motion occurs. Thanks to this, you can get more of the photographic compositions, creating new ideas, highlighting details from another perspective, creating a unique visual piece or taking much <br>more
-value to everyday photograph.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/subir2.png" class="img-responsive" alt="">
-                    </span>
-                    <h4 class="service-heading">PHOTOGRAPY</h4>
-                    <p class="text-muted">The realization of montages or the photographic illustrations that can be created from the digital tools, call my attention, since I can generate artistic works that are out of the ordinary,  this can always be carried out  for both publicity works and a work that reflects your imagination, it that can be appreciated by other people.</p>
-                </div>
-                <div class="col-md-4">
-
-                    <span class="fa-stack fa-4x">
-                        <a href="http://www.11secondclub.com/users/profile/574393" target="blank">
-                       <img src="img/subir3.png" class="img-responsive" alt="">
-                         </a>
-                    </span>
-                  
-                    <h4 class="service-heading">3D MODEL AND ANIMATION</h4>
-                    <p class="text-muted">My passion for animation and modeling,  emerged during my classes, creating characters from the sketch and giving them life with animation, it was the new experience that captivated me and with which I set out to develop these skills to a very good level. I leave two of my first works that i developed in animation 11SecondClub (Click Image)..</p>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+      <div data-anchor="page2" class="pp-scrollable section section-2">
+        <div class="scroll-wrap">
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Lo que hago</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-5 col-lg-5">
+                          <img alt="" class="img-responsive meKelly" src="images/bg/kelly-me-flowers.png">
+                        </div>
+                        <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                          
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">A little of creativity..</h3>
+                          <p class="subtitle-top text-dark">Soy Alejandro Betancourt</p>
+                          <h2 class="title-uppercase">Diseñador de<br> <span class="text-primary">Medios Interactivos</span> de la Universidad Icesi</h2>
+                          Me enfoco en las áreas de fotografía, edición fotográfica, edición de video y diseño gráfico para campañas publicitarias. Me motiva adquirir nuevos conocimientos y asumir retos.
+                        </div>
+                       <!-- <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                          <div class="progress-bars">
+                            <div class="clearfix">
+                              <div class="number pull-left">Development</div>
+                              <div class="number pull-right">80%</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                              <div class="number pull-left">WordPress</div>
+                              <div class="number pull-right">70%</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                              <div class="number pull-left">Design</div>
+                              <div class="number pull-right">80%</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                              <div class="number pull-left">Marketing</div>
+                              <div class="number pull-right">60%</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pruebamavia.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Water Brush Effect Potrait</h4>
-                        <p class="text-muted">Illustration/Plotagraph</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/port1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Ink Brush Effect Potrait</h4>
-                        <p class="text-muted">Illustration/Retouch</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ilust.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Abstract Potrait</h4>
-                        <p class="text-muted">Illustration/Plotagraph</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/logo1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Unilogistica</h4>
-                        <p class="text-muted">Logo Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/logo2.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>NEON / GLITCH</h4>
-                        <p class="text-muted">Photo Manipulation</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/port66.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Surreal</h4>
-                        <p class="text-muted">Photo/Illustration</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/taticlarap.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Photo Manipulation</h4>
-                        <p class="text-muted">Retouch/Composition</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tatip.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Queen Grimhilde</h4>
-                        <p class="text-muted">Retouch/illustration</p>
-                    </div>
-                </div>  
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/city.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Nature</h4>
-                        <p class="text-muted">Double Exposure</p>
-                    </div>
-                </div>
-
-            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">TOOLS</h2>
-                    <h3 class="section-subheading text-muted">Some friends...</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/fact1.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                 <br></br>
-                                    <h4>Photoshop</h4>
-                                    <h4 class="subheading">Retouch . Composition </h4>
-                                </div>
-                               
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/fact2.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                 <br></br>
-                                    <h4>Illustrator</h4>
-                                    <h4 class="subheading">Logo . Icons</h4>
-                                </div>
-                            
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/fact3.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                 <br></br>
-                                    <h4>After Effects</h4>
-                                    <h4 class="subheading">Motions Graphics . Video</h4>
-                                </div>
-                             
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/fact4.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                             <br></br>
-                                <div class="timeline-heading">
-                                    <h4>3D Max</h4>
-                                    <h4 class="subheading">Animation . Model</h4>
-                                </div>
-                               
-                            </div>
-                        </li>
-                       
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <h3 class="section-subheading text-muted">Just the basics..</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/yo.png" class="img-responsive img-circle" alt="">
-                        <h4>Alejandro Betancourt Mendoza</h4>
-                        <p class="text-muted">Interactive Media Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/Atancourt" target="blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/alejandro.betancourt.906" target="blank" ><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.instagram.com/yosoybeto.png/" target="blank"><i class="fa fa-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Hello!
-My name is Alejandro, an interactive media designer with knowledge in the areas of post- production and photographic animation and graphic design;.Made in Colombia, motivated 
-and interested in learning new stuff.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Clients Aside -->
-    
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Just if you want...</h3>
-                    <img src="img/client7.png">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                             
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                   
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                               
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                   
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/Atancourt" target="blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                       <li><a href="https://www.facebook.com/alejandro.betancourt.906" target="blank" ><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.instagram.com/yosoybeto_/" target="blank"><i class="fa fa-instagram"></i></a>
-                            </li>
-
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Water Brush Effect Potrait</h2>
-                                <p class="item-intro text-muted">Illustration/Plotagraph.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/pruebamavi.png" alt="">
-                                 <img class="img-responsive img-centered" src="img/portfolio/pruebamavi.gif" alt="">
-                              
-                              
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Ink Brush Effect Potrait</h2>
-                                <p class="item-intro text-muted">Illustration/Retouch</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/port11.png" alt="">
-                                  <img class="img-responsive img-centered" src="img/portfolio/port111.png" alt="">
-                               
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Abstract Potrait</h2>
-                                <p class="item-intro text-muted">Illustration/Plotagraph.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/ilusg.png" alt="">
-                                 <img class="img-responsive img-centered" src="img/portfolio/ilusgif.gif" alt="">
-                            
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Unilogistica</h2>
-
-                                <p class="item-intro text-muted">Logo Design.</p>
-                                  <h3>Imagotype</h3>
-                                <img class="img-responsive img-centered" src="img/logouni.png" alt="">
-                                <br>
-                                    
-                                </br>
-                                  <h3>Isotype</h3>
-                                <img class="img-responsive img-centered" src="img/logouni2.png" alt="">
-                              
-                                <p>Unilogistica S.A.S is an international freight agency, responsible for the logistics of export and import of the different customers of the company.<br>
-</br>
-The name comes from the fact that in the company, a single actor is in charge of the entire logistics chain. That's why the number 1 is significant in the logo.
-  <br>
-                                    
-                                </br>
-                                   <img class="img-responsive img-centered" src="img/things.png" alt="">
-                            </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>NEON GLITCH</h2>
-                                <p class="item-intro text-muted">Photo Manipulation</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/glitch.png" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/gg2.png" alt="">
-                               
-                                <br>
-                                </br>
- 
-
-    
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Surreal</h2>
-                                <p class="item-intro text-muted">Photo/Illustration.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/port6.png" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/valera.png" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/VanePintura.png" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/LauFuego.png" alt="">
-                                 <img class="img-responsive img-centered" src="img/portfolio/tatia.png" alt="">
-                                  <img class="img-responsive img-centered" src="img/portfolio/aaa.png" alt="">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     <!-- Portfolio Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Trying Stuff</h2>
-                                <p class="item-intro text-muted">Retouch/Composition.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/taticlara.jpg" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/tatigi.gif" alt="">
-                               
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-      <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Queen Grimhilde</h2>
-                                <p class="item-intro text-muted">Retouch/Illustrator.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/posible.jpg" alt="">
-                                            
-                                <p>Personal project shot at the studio using a model and the makeup with texture in photoshop to create the Queen Grimhilde.</p>
-                                <br>
-                                </br>
-                                          
-                                  <p>Trying different poses and textures.</p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/avance.png" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/queeng.gif" alt="">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-      <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Nature</h2>
-                                <p class="item-intro text-muted">Double Exposure.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/normalcity.jpg" alt="">
-                             <img class="img-responsive img-centered" src="img/portfolio/Luflores.png" alt="">
-                              <img class="img-responsive img-centered" src="img/portfolio/VaneCueva.png" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/primera.jpg" alt="">
-                                <img class="img-responsive img-centered" src="img/portfolio/segunda.jpg" alt="">
+      </div>
+      <div data-anchor="page3" class="pp-scrollable text-white section section-3">
+        <div class="scroll-wrap">
+          <div class="bg-changer">
+            <div class="section-bg" style="background-image:url(images/bg/bg2.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-2.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-3.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-4.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-5.jpg);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/bg2-6.jpg);"></div>
+        
+          </div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span>Mi experiencia</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h2 class="title-uppercase text-white algunos">ALGUNOS PROYECTOS</h2>
+                          <div class="row-project-box row">
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
                                 
+                              <a href="#project1" class="project-box">
+                               <!--   <img src="images/bg/p1.jpg" style="width:100%" "height=100%">-->
 
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <div class="project-box-inner">
+                                  <h5>RUN FOR FUN</h5>
+                                  <div class="project-category">Social Media</div>
+                                  <div class="work-1 work" style="background-image:url(images/bg/p1.jpg);"></div>
+                                </div>
+                              </a>
                             </div>
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="#project2" class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>Ink and Smoke</h5>
+                                  <div class="project-category">Manipulación fotográfica</div>
+                                  <div class="work-1 work" style="background-image:url(images/bg/bg2-2-full.jpg);"></div>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="#project3" class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>Burnout Phoenix</h5>
+                                  <div class="project-category">Manipulación fotográfica</div>
+
+                                  <div class="work-1 work" style="background-image:url(images/bg/bg2-3-full.jpg);"></div>
+                                </div>
+                              </a>
+                            </div>
+                            <div class="col-project-box col-sm-6 col-md-4 col-lg-3">
+                              <a href="#project4" class="project-box">
+                                <div class="project-box-inner">
+                                  <h5>Muflor</h5>
+                                  <div class="project-category">Manipulación fotográfica</div>
+                                  <div class="work-1 work" style="background-image:url(images/bg/bg2-4-full.jpg);"></div>
+                                </div>
+                              </a>
+                            </div>
+                            
+                          </div>
+                       <!--   <a href="#" class="h5 link-arrow text-white">view all projects <i class="icon icon-chevron-right"></i></a>-->
+
+
+
+                       
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div data-anchor="page4" class="pp-scrollable section section-4">
+        <div class="scroll-wrap">
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>LIDERAZGO</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-5 col-lg-5">
+                          <h2 class="title-uppercase">LIDERAZGO Y<span class="text-primary"> TRABAJO</span> EN EQUIPO</h2>
+
+                          <div class="resume-row">
+                            <h6 class="resume-type pink">FERIA FIT</h6>
+                           <!--  <p class="resume-study obsc">Universidad Icesi</p>-->
+                            <p class="resume-date text-primary">2018-2019</p>
+                            <p class="resume-text">Participé en creación de la línea grafica de cada carrera. Además, apoyé en la gestión de la logística de los eventos, coordinando los diferentes equipos para que culminara exitosamente cada etapa del evento. </p>
+                          </div>
+
+                          <div class="resume-row">
+                            <h6 class="resume-type pink">HOY ES DISEÑO</h6>
+                            <p class="resume-study obsc">Universidad Icesi</p>
+                            <p class="resume-date text-primary">2016-1</p>
+                            <p class="resume-text">Participé en la gestión de uno de los eventos de diseño más importantes en el suroccidente Colombiano como líder de Patrocinio.</p>
+                          </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                          <div class="dots-image-2">
+                            <img alt="" class="img-responsive" src="images/hed2017-2.jpg">
+                            <div class="dots"></div>
+                            <!--<div class="experience-info">
+                              <div class="number">1</div>
+                              <div class="text">año <br>lleno<br>de experiencias</div>
+                            </div>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div data-anchor="page5" class="pp-scrollable text-white section section-6">
+        <div class="scroll-wrap">
+     <!--    <div class="section-bg" style="background-image:url(images/bg/bg3.jpg);background-color: #ff1e77"></div>-->
+     <div class="section-bg" style="background-color: #fff"></div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span>Resume</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="col-resume">
+                            <h6 class="resume-title">
+                              Educación
+                            </h6>
+                            <div class="resume-content">
+                              <div class="resume-inner">
+                                <div class="resume-row">
+                                  <h6 class="resume-type">DISEÑO DE MEDIOS INTERACTIVOS</h6>
+                                  <p class="resume-study">Universidad Icesi</p>
+                                  <p class="resume-date text-primary">2011 - 2018</p>
+                                  <p class="resume-text">Diez semestres<br/>
+                                  Santiago de Cali, Colombia</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">CURSO DE MARKETING</h6>
+                                  <p class="resume-study">Domestika</p>
+                                  <p class="resume-date text-primary">2020</p>
+                                  <p class="resume-text">Formación completa.<br/>
+                                  </p>
+                                </div>
+
+                                <div class="resume-row">
+                                  <h6 class="resume-type">Bachiller</h6>
+                                  <p class="resume-study">Colegio Coomeva</p>
+                                  <p class="resume-date text-primary">2006-2011</p>
+                                  <p class="resume-text">Formación completa.<br/>Cali , Colombia </p>
+                                </div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="col-resume">
+                            <h6 class="resume-title">
+                              Experiencia
+                            </h6>
+                            <div class="resume-content">
+                              <div class="resume-inner">
+                                <div class="resume-row">
+                                  <h6 class="resume-type">FERIAFIT</h6>
+                                  <p class="resume-study">Cali, Colombia</p>
+                                  <p class="resume-date text-primary">Jul 2018 - En. 2020</p>
+                                  <p class="resume-text">Animador, edición de video, diseño gráﬁco, diseño de logos e insumos para diferentes servicios.</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">SUCROAL SAS</h6>
+                                  <p class="resume-study">Cali, Colombia</p>
+                                  <p class="resume-date text-primary">Agt. 2017 - En. 2018</p>
+                                  <p class="resume-text">Animador, edición de video y diseño gráﬁco.</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">PONTOS SAS</h6>
+                                  <p class="resume-study">Cali, Colombia</p>
+                                  <p class="resume-date text-primary">Sep. 2014 - May 2017</p>
+                                  <p class="resume-text">Diseñador gráﬁco, desarrollo de la pagina web, diseño de logos e insumos para diferentes servicios.</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">UNILOGISTICA SAS</h6>
+                                  <p class="resume-study">Cali, Colombia</p>
+                                  <p class="resume-date text-primary">Nov. 2012 - Oct. 2014</p>
+                                  <p class="resume-text">Diseñador gráﬁco, diseño logos e insumos para diferentes servicios.</p>
+                                </div>
+                                <div class="resume-row">
+                                  <h6 class="resume-type">REPSUMIN SAS</h6>
+                                  <p class="resume-study">Cali, Colombia</p>
+                                  <p class="resume-date text-primary">Nov. 2012 - Sep. 2013</p>
+                                  <p class="resume-text">Diseñador gráﬁco, servicio al cliente, telemercadeo y logística para entrega.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!--    <div data-anchor="page6" class="pp-scrollable section section-4">
+        <div class="scroll-wrap">
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Partners</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro overflow-hidden">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="row-partners">
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+                            </div>
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+                            </div>
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+                            </div>
+                             <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+                            </div>
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+                            </div>
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+                            </div>
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
+                            </div>
+                            <div class="col-partner">
+                              <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+     <!-- <div data-anchor="page7" class="pp-scrollable text-white section section-6">
+        <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/patron1.jpg);"></div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span>testimonials</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                          <span class="icon-quote ion-quote"></span>
+                          <h2 class="title-uppercase text-white">creative & dedicated is things that Jonny studio brings for your house</h2>
+                        </div>
+                        <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
+                          <div class="review-carousel owl-carousel">
+                            <div class="review-carousel-item">
+                              <div class="text">
+                              <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Jonny Studio is perfect.</p>
+                              <p> Thank you so much for all your design and expertise."</p>
+                              </div>
+                              <div class="review-author">
+                                <div class="author-name">David & Elisa</div>
+                                <i>Apartment view lake at Brooklyn</i>
+                              </div>
+                            </div>
+                            <div class="review-carousel-item">
+                              <div class="text">
+                              <p>“  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius."</p>
+                              <p> Thank you so much for all your design and expertise."</p>
+                              </div>
+                              <div class="review-author">
+                                <div class="author-name">Amanda</div>
+                                <i>Apartment view lake at Brooklyn</i>
+                              </div>
+                            </div>
+                            <div class="review-carousel-item">
+                              <div class="text">
+                              <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Jonny Studio is perfect.</p>
+                              <p> Thank you so much for all your design and expertise."</p>
+                              </div>
+                              <div class="review-author">
+                                <divclass="author-name">John</div>
+                                <i>Apartment view lake at Brooklyn</i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <!-- 
+      <div data-anchor="page6" class="pp-scrollable section section-6">
+        <div class="scroll-wrap">
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>contacto</span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro overflow-hidden">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h2 class="title-uppercase">Hablemos</h2>
+                          <div class="contact-info">
+                            <form class="js-form" novalidate="novalidate">
+                              <div class="row">
+                                <div class="form-group col-sm-6">
+                                  <input type="text" name="name" required="" placeholder="Nombre*" aria-required="true">
+                                </div>
+                                <div class="form-group col-sm-6">
+                                  <input type="email" name="email" placeholder="Email">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                  <input type="text" name="subject" placeholder="Asunto (Opcional)">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                  <textarea name="message" required="" placeholder="Mensaje*" aria-required="true"></textarea>
+                                </div>
+                                <div class="col-sm-12"><button type="submit" class="btn">ENVIAR</button></div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+
+    <!--  VENTANAS MODALES PROYECTOS  -->
+    <div id="project1" class="proyecto1 projectWindow">
+        <a class="closeLink" data-menuanchor="page3" href="#page3">CERRAR</a>
+        <div class="contProj">
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/df09d6124536453.6106de42316ce.jpg" alt="Proyecto 1"/>
+        </div>
+        <a class="openBehance" href="https://www.behance.net/gallery/124536453/Social-Media-RUN-FOR-FUN-%28FERIAFIT%29" target="_blank">ABRIR EN BEHANCE</a>
+      </div>
+
+      <div id="project2" class="proyecto2 projectWindow">
+          <a class="closeLink"  data-menuanchor="page3" href="https://kurango.co//#page3">CERRAR</a>
+          <div class="contProj">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6c2d4462951081.5aa0cfc7e5742.png" alt="Proyecto 2"/>
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/70884862951081.5aa0cec2b013e.gif" alt="Proyecto 2"/>
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ebed7c62951081.5aa0cec2afdd9.png" alt="Proyecto 2"/>
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bebff262951081.5aa0cec2af513.gif" alt="Proyecto 2"/>
+          </div>
+          <a class="openBehance" href="https://www.behance.net/gallery/62951081/Ink-and-Smoke" target="_blank">ABRIR EN BEHANCE</a>
+        </div>
+
+        <div id="project3" class="proyecto3 projectWindow">
+            <a class="closeLink"  data-menuanchor="page3" href="https://kurango.co//#page3">CERRAR</a>
+            <div class="contProj">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/47bf4b124565775.6107045e75dcf.jpg" alt="Proyecto 3"/>
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/21ee13124565775.610708262afe6.jpg" alt="Proyecto 3"/>
+            </div>
+            <a class="openBehance" href="https://www.behance.net/gallery/124565775/Burnout-Phoenix-Photo-Manipulation" target="_blank">ABRIR EN BEHANCE</a>
+          </div>
+
+          <div id="project4" class="proyecto4 projectWindow">
+              <a class="closeLink"  data-menuanchor="page3" href="https://kurango.co//#page3">CERRAR</a>
+              <div class="contProj">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/ae1fc3124569569.61071d170fcd1.jpg" alt="Proyecto 4"/>
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/cba074124569569.61071d170f3b9.jpg" alt="Proyecto 4"/>
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/f9eea2124569569.61071d171060a.jpg" alt="Proyecto 4"/>
+              </div>
+              <a class="openBehance" href="https://www.behance.net/gallery/124569569/Muflor-Manipulacion-fotografica" target="_blank">ABRIR EN BEHANCE</a>
+            </div>
+
+    <!-- Modals success -->
+
+  <div id="success" class="modal modal-message fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+            <h2 class="modal-title">¡Gracias!</h2>
+            <p class="modal-subtitle">Tu mensaje ha sido enviado con éxito</p>
+          </div>
         </div>
     </div>
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+  </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Modals error -->
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+  <div id="error" class="modal modal-message fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+             <h2 class="modal-title">Lo siento :c</h2>
+            <p class="modal-subtitle"> Algo a salido mal </p>
+          </div>
+        </div>
+    </div>
+  </div>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+<!-- jQuery -->
 
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.pagepiling.js"></script>
+
+
+<!-- Scripts -->
+<script src="js/scripts.js"></script> 
 </body>
-
 </html>
